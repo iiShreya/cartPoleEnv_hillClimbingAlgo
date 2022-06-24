@@ -18,9 +18,9 @@ Types of Hill Climbing
 Simple Hill climbing: It examines the neighboring nodes one by one and selects the first neighboring node which optimizes the current cost as the next node. 
 Algorithm for Simple Hill climbing : 
  
-Step 1 : Evaluate the initial state. If it is a goal state then stop and return success. Otherwise, make initial state as current state. 
+    Step 1 : Evaluate the initial state. If it is a goal state then stop and return success. Otherwise, make initial state as current state. 
 
-Step 2 : Loop until the solution state is found or there are no new operators present which can be applied to the current state. 
+    Step 2 : Loop until the solution state is found or there are no new operators present which can be applied to the current state. 
 
 a) Select a state that has not been yet applied to the current state and apply it to produce a new state. 
 
@@ -32,11 +32,11 @@ b) Perform these to evaluate new state
 Step 3 : Exit. 
  
 
-       2. Steepest-Ascent Hill climbing: It first examines all the neighboring nodes and then selects the node closest to the solution state as of the next node.                                                                                                                                Algorithm for Simple Hill climbing :
+2. Steepest-Ascent Hill climbing: It first examines all the neighboring nodes and then selects the node closest to the solution state as of the next node.                                                                                                                                Algorithm for Simple Hill climbing :
 
-Step 1 :  Evaluate the initial state. If it is a goal state then stop and return success. Otherwise, make initial state as current state. 
+       Step 1 :  Evaluate the initial state. If it is a goal state then stop and return success. Otherwise, make initial state as current state. 
 
-Step 2 : Repeat these steps until a solution is found or current state does not change 
+       Step 2 : Repeat these steps until a solution is found or current state does not change 
 
 a) Select a state that has not been yet applied to the current state.
 
@@ -48,7 +48,7 @@ d) Make best state as current state and go to Step 2: b) part.
 
 Step 3 : Exit
 
-       3. Stochastic hill climbing: It does not examine all the neighboring nodes before deciding which node to select. It just selects a neighboring node at random and decides (based on the amount of improvement in that          neighbor) whether to move to that neighbor or to examine another. 
+3. Stochastic hill climbing: It does not examine all the neighboring nodes before deciding which node to select. It just selects a neighboring node at random and decides (based on the amount of improvement in that          neighbor) whether to move to that neighbor or to examine another. 
 
        Step 1:  Evaluate the initial state. If it is a goal state then stop and return success. Otherwise, make the initial state the current state. 
 

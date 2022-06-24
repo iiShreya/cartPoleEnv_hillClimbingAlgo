@@ -1,7 +1,11 @@
 # cartPoleEnv_hillClimbingAlgo
 
 ![alt text](https://www.google.com/search?q=cartpole+gif&rlz=1C1CHBF_enIN1007IN1007&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi7vv-04sb4AhWly6ACHRhGAAIQ_AUoAXoECAEQAw&biw=1280&bih=601&dpr=1.5#imgrc=AC1Omks3nouaCM)
-Features of Hill Climbing
+
+
+
+
+# Features of Hill Climbing
 
 1. Variant of generate and test algorithm: It is a variant of generating and test algorithm. The generate and test algorithm is as follows : 
 

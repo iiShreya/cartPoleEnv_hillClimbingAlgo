@@ -32,7 +32,7 @@ b) Perform these to evaluate new state
 Step 3 : Exit. 
  
 
-2. Steepest-Ascent Hill climbing: It first examines all the neighboring nodes and then selects the node closest to the solution state as of the next node.                                                                                                                                Algorithm for Simple Hill climbing :
+2. Steepest-Ascent Hill climbing: It first examines all the neighboring nodes and then selects the node closest to the solution state as of the next node.            Algorithm for Simple Hill climbing :
 
        Step 1 :  Evaluate the initial state. If it is a goal state then stop and return success. Otherwise, make initial state as current state. 
 

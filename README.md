@@ -93,3 +93,26 @@ To overcome plateaus: Make a big jump. Randomly select a state far away from the
 
 Ridge: Any point on a ridge can look like a peak because movement in all possible directions is downward. Hence the algorithm stops when it reaches this state. 
 To overcome Ridge: In this kind of obstacle, use two or more rules before testing. It implies moving in several directions at once.
+
+
+
+
+function HILL-CLIMBING(problem) returns a state that is a local maximum
+ current ← problem.INITIAL-STATE
+ loop do
+   neighbor ← a highest-valued successor of current
+   if VALUE(neighbour) ≤ VALUE(current) then return current
+   current ← neighbor
+
+
+
+
+function HILL-CLIMBING(problem) returns a state that is a local maximum
+ current ← MAKE-NODE(problem.INITIAL-STATE)
+ loop do
+   neighbor ← a highest-valued successor of current
+   if neighbor.VALUE ≤ current.VALUE then return current.STATE
+   current ← neighbor
+
+
+

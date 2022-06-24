@@ -97,22 +97,22 @@ To overcome Ridge: In this kind of obstacle, use two or more rules before testin
 
 
 
-function HILL-CLIMBING(problem) returns a state that is a local maximum
- current ← problem.INITIAL-STATE
- loop do
-   neighbor ← a highest-valued successor of current
-   if VALUE(neighbour) ≤ VALUE(current) then return current
-   current ← neighbor
+__function__ HILL-CLIMBING(_problem_) __returns__ a state that is a local maximum  
+&emsp;_current_ &larr; _problem_.INITIAL\-STATE  
+&emsp;__loop do__  
+&emsp;&emsp;&emsp;_neighbor_ &larr; a highest\-valued successor of _current_  
+&emsp;&emsp;&emsp;_if_ VALUE(_neighbour_) &le; VALUE(_current_) __then return__ _current_  
+&emsp;&emsp;&emsp;_current_ &larr; _neighbor_ 
 
 
 
 
-function HILL-CLIMBING(problem) returns a state that is a local maximum
- current ← MAKE-NODE(problem.INITIAL-STATE)
- loop do
-   neighbor ← a highest-valued successor of current
-   if neighbor.VALUE ≤ current.VALUE then return current.STATE
-   current ← neighbor
+__function__ HILL-CLIMBING(_problem_) __returns__ a state that is a local maximum  
+&emsp;_current_ &larr; MAKE\-NODE(_problem_.INITIAL\-STATE)  
+&emsp;__loop do__  
+&emsp;&emsp;&emsp;_neighbor_ &larr; a highest\-valued successor of _current_  
+&emsp;&emsp;&emsp;__if__ _neighbor_.VALUE &le; _current_.VALUE __then return__ _current_.STATE  
+&emsp;&emsp;&emsp;_current_ &larr; _neighbor_
 
 
 
